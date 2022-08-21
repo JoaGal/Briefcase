@@ -1,0 +1,141 @@
+.container-contact {
+  padding: 10rem 0;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.contact-subtitle {
+  font-family: 'RobotoMono Regular';
+  font-size: 2rem;
+}
+
+.contact-title {
+  font-family: 'Montserrat Bold';
+  font-size: 6rem;
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+}
+
+.contact__boxItem {
+  padding: 2rem;
+  background-color: var(--deep-dark);
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.contact__icon {
+  color: var(--white);
+  background-color: var(--gray-2);
+  padding: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 32px;
+}
+
+.contactSection__wrapper {
+  display: flex;
+  gap: 5rem;
+  margin-top: 7rem;
+  justify-content: space-between;
+  position: relative;
+}
+
+.contactSection__wrapper::after {
+  position: absolute;
+  content: '';
+  width: 2px;
+  height: 50%;
+  background-color: var(--gray-1);
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.left {
+  width: 100%;
+  max-width: 500px;
+}
+
+.right {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 12px;
+  /* padding-left: 3rem; */
+}
+
+.contact-form {
+  width: 100%;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.contact-label {
+  font-size: 1.8rem;
+}
+
+.input-textarea {
+  width: 100%;
+  font-size: 2rem;
+  padding: 1.2rem;
+  color: var(--gray-1);
+  background-color: var(--deep-dark);
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+textarea {
+  min-height: 250px;
+  resize: vertical;
+}
+
+.contact-button {
+  background-color: var(--gray-1);
+  color: var(--black);
+  font-size: 2rem;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 1rem 4rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .contact-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .contact-title {
+    font-size: 3.6rem;
+  }
+
+  .contactSection__wrapper {
+    flex-direction: column;
+  }
+
+  .contactSection__wrapper::after {
+    display: none;
+  }
+
+  .left,
+  .right {
+    max-width: 100%;
+  }
+
+  .right {
+    padding: 4rem 2rem 2rem 2rem;
+  }
+}

@@ -1,0 +1,46 @@
+.contactBanner__container {
+    padding: 5rem 0;
+}
+
+.contactBanner__wrapper {
+    background-color: var(--deep-dark);
+    border-radius: 12px;
+    padding: 5rem 0rem;
+    text-align: center;
+}
+
+.contactBanner__heading {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+.contactBanner-button{
+    font-size: 2.2rem;
+    background-color: var(--gray-1);
+    padding: 0.7em 2em;
+    border: 2px solid var(--gray-1);
+    border-radius: 8px;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.p-text {
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    line-height: 1.3em;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .contactBanner__heading {
+        font-size: 2.8rem;
+    }
+
+    .p-text {
+        font-size: 1.4rem;
+    }
+    .contactBanner-button{
+        font-size: 1.8rem;
+    }
+}

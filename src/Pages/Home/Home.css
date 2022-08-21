@@ -1,0 +1,87 @@
+.hero {
+    height: 100vh;
+    min-height: 1000px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero__heading {
+    font-size: 2rem;
+    margin-bottom: -4rem;
+    position: relative;
+}
+
+#hero__span {
+    display: inline-block;
+    width: 100%;
+}
+
+.hero__name {
+    font-family: 'Montserrat SemiBold';
+    font-size: 7rem;
+    color: var(--white);
+}
+
+
+.hero__img {
+    max-width: 900px;
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    border: 2px solid var(--gray-1);
+    background-image: url(
+        '../../Assets/images/Joa1.jpeg'
+    );
+    background-size: contain;
+    background-position: center;
+}
+
+
+.hero__info {
+    margin-top: -18rem;
+}
+
+
+.hero__button {
+    font-size: 2.2rem;
+    background-color: var(--gray-1);
+    padding: 0.7em 2em;
+    border: 2px solid var(--gray-1);
+    border-radius: 8px;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .hero {
+        min-height: 750px;
+    }
+
+    .hero__button {
+        font-size: 1.8rem;
+    }
+
+    .hero__heading {
+        font-size: 1.4rem;
+        margin-bottom: -3rem;
+    }
+
+    .hero__name {
+        font-size: 4.5rem;
+    }
+
+    .hero__img {
+        height: 300px;
+    }
+
+    .hero__info {
+        margin-top: 3rem;
+    }
+}
