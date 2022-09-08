@@ -4,6 +4,7 @@ import Movie from '../../Assets/images/Movie.ico';
 import CandyWorld from '../../Assets/images/CandyWorld.ico';
 import Pokemon from '../../Assets/images/Pokemon.ico';
 import Clima from '../../Assets/images/Clima.ico';
+import DangerousCave from '../../Assets/images/DangerousCave.ico';
 import './Projects.css';
 import { ContactBanner } from '../../Components/ContactBanner/ContactBanner';
 
@@ -29,6 +30,9 @@ export const Projects = () => {
                     </a>
                     <a href='https://clima-joagal.vercel.app/'>
                         <ProjectsItems img={Clima} title='Climate' desc='React app. It indicates the climate of four Argentine provinces.' />
+                    </a>
+                    <a href='https://dandgerous-cave-joagal.vercel.app/'>
+                        <ProjectsItems img={DangerousCave} title='Dangerous Cave' desc='JavaScript and Canvas Game. Dodge the esalactitas and make the best score.' />
                     </a>
                 </div>
             </div>
