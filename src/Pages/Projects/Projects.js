@@ -32,7 +32,7 @@ export const Projects = () => {
                         <ProjectsItems img={Clima} title='Climate' desc='React app. It indicates the climate of four Argentine provinces.' />
                     </a>
                     <a href='https://dandgerous-cave-joagal.vercel.app/'>
-                        <ProjectsItems img={DangerousCave} title='DangerousCave' desc='JavaScript and Canvas PC Game. Dodge the esalactitas and make the best score.' />
+                        <ProjectsItems img={DangerousCave} title='DangerousCave' desc='JavaScript and Canvas PC Game. Dodge the stalactites and make the best score.' />
                     </a>
                 </div>
             </div>
