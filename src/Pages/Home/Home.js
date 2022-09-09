@@ -9,7 +9,7 @@ export const Home = () => {
       <div className="hero">
         <div className="container">
           <h1 className="hero__heading">
-            <span id='hero__span'>Hello, This is</span>
+            <span id='hero__span'>Hello, I am</span>
             <span className="hero__name" id='hero__span'>Joaquin Galdeano</span>
           </h1>
           <div className="hero__img">
