@@ -36,9 +36,11 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  font-size: 32px;
 }
 
+.icon-c{
+  width: 32px;
+}
 .contactSection__wrapper {
   display: flex;
   gap: 5rem;
@@ -112,6 +114,13 @@ textarea {
   cursor: pointer;
 }
 
+.p-text-link {
+  font-size: 1.25rem;
+  line-height: 1.3em;
+  margin-left: -1.5rem;
+
+}
+
 
 @media only screen and (max-width: 768px) {
   .contact-subtitle {
@@ -137,5 +146,10 @@ textarea {
 
   .right {
     padding: 4rem 2rem 2rem 2rem;
+  }
+  .p-text-link {
+    font-size: 1rem;
+    line-height: 1.3em;
+  
   }
 }

@@ -1,7 +1,9 @@
 import React, { useRef } from 'react';
 import './Contact.css';
-import { MdPlace, MdEmail, MdLocalPhone } from 'react-icons/md';
+import { MdPlace, MdLocalPhone } from 'react-icons/md';
+import { AiFillLinkedin } from "react-icons/ai";
 import emailjs from '@emailjs/browser';
+import { Link } from 'react-router-dom';
 
 export const Contact = () => {
 
@@ -45,19 +47,23 @@ export const Contact = () => {
                     <div className="contactSection__wrapper">
                         <div className="left">
                             <div className='contact__boxItem'>
-                                <div className="contact__icon"><MdLocalPhone /></div>
+                                <div className="contact__icon"><MdLocalPhone className='icon-c'/></div>
                                 <div className="contact__info">
                                     <p className='p-text'>+3624712344</p>
                                 </div>
                             </div>
                             <div className='contact__boxItem'>
-                                <div className="contact__icon"><MdEmail /></div>
+                                <div className="contact__icon"><AiFillLinkedin className='icon-c'/></div>
+                                
+                                <a href='https://www.linkedin.com/in/joaquin-galdeano-174281209/'>
                                 <div className="contact__info">
-                                    <p className='p-text'>joaquingaldeano7@gmail.com</p>
+                                    <p className='p-text-link'>https://www.linkedin.com/in/joaquin-galdeano-174281209/</p>
                                 </div>
+                                </a>
+                            
                             </div>
                             <div className='contact__boxItem'>
-                                <div className="contact__icon"><MdPlace /></div>
+                                <div className="contact__icon"><MdPlace className='icon-c'/></div>
                                 <div className="contact__info">
                                     <p className='p-text'>Chaco, Argentina</p>
                                 </div>
