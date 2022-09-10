@@ -29,7 +29,7 @@ export const Projects = () => {
                         <ProjectsItems img={Pokemon} title='Pokemon' desc='React app. Where are you going to find your pokemones, see their characteristics and abilities.' />
                     </a>
                     <a href='https://clima-joagal.vercel.app/'>
-                        <ProjectsItems img={Clima} title='Climate' desc='React app. It indicates the climate of four Argentine provinces.' />
+                        <ProjectsItems img={Clima} title='Weather' desc='React app. It indicates the weather of four Argentine provinces.' />
                     </a>
                     <a href='https://dandgerous-cave-joagal.vercel.app/'>
                         <ProjectsItems img={DangerousCave} title='DangerousCave' desc='JavaScript and Canvas PC Game. Dodge the stalactites and make the best score.' />
