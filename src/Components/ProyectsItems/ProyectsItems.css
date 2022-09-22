@@ -28,3 +28,14 @@
     margin-top: 1rem;
     text-align: center;
   }
+
+  .projectItem__desc__link {
+    font-size: 0rem;
+    margin-top: -5px;
+    font-family: 'RobotoMono Regular';
+    text-align: right;
+  }
+
+  .projectItem__ico{
+    width: 18px;
+  }
