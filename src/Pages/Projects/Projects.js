@@ -5,6 +5,7 @@ import CandyWorld from "../../Assets/images/CandyWorld.ico";
 import Pokemon from "../../Assets/images/Pokemon.ico";
 import Clima from "../../Assets/images/Clima.ico";
 import Resume from "../../Assets/images/CV.ico";
+import ShooterAim from "../../Assets/images/ShooterAim.ico";
 import DangerousCave from "../../Assets/images/DangerousCave.ico";
 import "./Projects.css";
 import { ContactBanner } from "../../Components/ContactBanner/ContactBanner";
@@ -18,6 +19,13 @@ export const Projects = () => {
           <h2 className="projects__title">Projects</h2>
         </div>
         <div className="projects__allItems">
+          <a href="https://shooteraim-joagal.vercel.app/">
+            <ProjectsItems
+              img={ShooterAim}
+              title="ShooterAim"
+              desc="React app. Where you will be able to improve your precision, reaction and reflexes in shooting games."
+            />
+          </a>
           <a href="https://create-your-resume.vercel.app/">
             <ProjectsItems
               img={Resume}
