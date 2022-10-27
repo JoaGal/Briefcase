@@ -3,7 +3,6 @@ import './Contact.css';
 import { MdPlace, MdLocalPhone } from 'react-icons/md';
 import { AiFillLinkedin } from "react-icons/ai";
 import emailjs from '@emailjs/browser';
-import { Link } from 'react-router-dom';
 
 export const Contact = () => {
 

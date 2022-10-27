@@ -5,6 +5,7 @@ import CandyWorld from "../../Assets/images/CandyWorld.ico";
 import Pokemon from "../../Assets/images/Pokemon.ico";
 import Clima from "../../Assets/images/Clima.ico";
 import Resume from "../../Assets/images/CV.ico";
+import Task from "../../Assets/images/Task.ico";
 import ShooterAim from "../../Assets/images/ShooterAim.ico";
 import DangerousCave from "../../Assets/images/DangerousCave.ico";
 import "./Projects.css";
@@ -31,6 +32,13 @@ export const Projects = () => {
               img={Resume}
               title="Create Resume"
               desc="React app. On this website you can create your 100% professional resume. It will help you get a job."
+            />
+          </a>
+          <a href="https://create-your-resume.vercel.app/">
+            <ProjectsItems
+              img={Task}
+              title="Task"
+              desc="React and TypeScript app. It is a simple website where you can write down tasks, things you need to buy or do."
             />
           </a>
           <a href="https://movie-joagal.vercel.app/">
