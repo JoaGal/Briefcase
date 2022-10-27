@@ -34,7 +34,7 @@ export const Projects = () => {
               desc="React app. On this website you can create your 100% professional resume. It will help you get a job."
             />
           </a>
-          <a href="https://create-your-resume.vercel.app/">
+          <a href="https://task-joagal.vercel.app/">
             <ProjectsItems
               img={Task}
               title="Task"
