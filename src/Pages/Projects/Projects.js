@@ -8,6 +8,7 @@ import Resume from "../../Assets/images/CV.ico";
 import Task from "../../Assets/images/Task.ico";
 import ShooterAim from "../../Assets/images/ShooterAim.ico";
 import DangerousCave from "../../Assets/images/DangerousCave.ico";
+import ShooterNative from "../../Assets/images/ShooterNative.ico"
 import "./Projects.css";
 import { ContactBanner } from "../../Components/ContactBanner/ContactBanner";
 
@@ -34,6 +35,13 @@ export const Projects = () => {
               desc="React app. On this website you can create your 100% professional resume. It will help you get a job."
             />
           </a>
+          <a href="https://expo.dev/@joagal/shooter-native">
+            <ProjectsItems
+              img={ShooterNative}
+              title="ShooterNative"
+              desc="React Native app. Created with expo-cli, it is a replica of ShooterAim, just change the programming language."
+            />
+          </a>
           <a href="https://task-joagal.vercel.app/">
             <ProjectsItems
               img={Task}
@@ -48,18 +56,18 @@ export const Projects = () => {
               desc="React app. In this place you can search for movies of all genres, see their rating and review."
             />
           </a>
-          <a href="https://candy-world-git-master-joagal.vercel.app/">
-            <ProjectsItems
-              img={CandyWorld}
-              title="Candy World"
-              desc="React app. Where you will find different types of games with candies related to old Candy-Crush."
-            />
-          </a>
           <a href="https://pokemon-joagal.vercel.app/">
             <ProjectsItems
               img={Pokemon}
               title="Pokemon"
               desc="React app. Where are you going to find your pokemones, see their characteristics and abilities."
+            />
+          </a>
+          <a href="https://candy-world-git-master-joagal.vercel.app/">
+            <ProjectsItems
+              img={CandyWorld}
+              title="Candy World"
+              desc="React app. Where you will find different types of games with candies related to old Candy-Crush."
             />
           </a>
           <a href="https://clima-joagal.vercel.app/">
